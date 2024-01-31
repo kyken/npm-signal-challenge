@@ -1,6 +1,11 @@
 ```
+% npm -v
+9.6.6
+```
+
+```
 $ npm run start
-> signal-18@1.0.0 start
+> npm9.6.6@1.0.0 start
 > node index.js
 
 [19080] loop start: 0
@@ -9,6 +14,7 @@ $ npm run start
 ...
 ```
 few seconds later...
+
 I try it other terminal
 ```
 $ npm run kill

@@ -1,6 +1,11 @@
 ```
+$ npm -v
+10.2.4
+```
+
+```
 $ npm run start
-> signal-18@1.0.0 start
+> npm10.2.4@1.0.0 start
 > node index.js
 
 [19080] loop start: 0
@@ -9,6 +14,7 @@ $ npm run start
 ...
 ```
 few seconds later...
+
 I try it other terminal
 ```
 $ npm run kill
@@ -19,3 +25,12 @@ $ npm run kill
 ...
 ```
 ☠️
+
+and then Ctrl + C
+
+```
+[20535] loop end
+[20535] loop start: 9
+^C[20535] shutdown gracefully...
+```
+🧐
