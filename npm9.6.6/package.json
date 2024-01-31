@@ -1,0 +1,17 @@
+{
+  "name": "signal-18",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "kill": "ps -ef | grep 'npm run start' | grep -v 'grep' | awk '{ print \"kill -s INT\", $2 }' | sh",
+    "killSh": "ps -ef | grep 'run.sh' | grep -v 'grep' | awk '{ print \"kill -s INT\", $2 }' | sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "volta": {
+    "node": "18.19.0",
+    "npm": "9.6.6"
+  }
+}
